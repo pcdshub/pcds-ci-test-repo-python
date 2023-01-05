@@ -16,7 +16,7 @@ requirements:
   build:
     - python >=3.7
     - setuptools
-    - setuptools_scm
+    - setuptools-scm
   run:
     - python >=3.7
 
