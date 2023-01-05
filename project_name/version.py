@@ -4,6 +4,7 @@ Experimental version handling.
 2. Defer evaluation of the version until it is checked to save 0.3s on import
 3. Use the git version in a git checkout and _version otherwise.
 """
+
 from collections import UserString
 from pathlib import Path
 from typing import Optional
