@@ -1,1 +1,2 @@
 # List requirements here.
+pytest==7.2.1
