@@ -8,7 +8,7 @@ project-name
 
 `Documentation <https://pcdshub.github.io/project-name/>`_
 
-A short description of the project.
+print a statement
 
 Requirements
 ------------
