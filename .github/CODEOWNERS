@@ -1,8 +1,9 @@
+# github folder holds administrative files
 .github/** @pcdshub/software-admin
 
-# Default owners are pcds-platforms-development
-* @robert-test-tk
+# default group
+* @pcdshub/tmo-members @pcdshub/vacuum-sme
 
-*.txt @tangkong
-
-*.py @ZLLentz
+# language-specific group(s)
+*.py* @pcdshub/python-reviewers @pcdshub/tmo-members @pcdshub/vacuum-sme
+*.{plcproj,sln,TcDUT,TcGVL,TcPOU,TcTTO,tmc,tsproj,xti} @pcdshub/twincat-reviewers @pcdshub/tmo-members @pcdshub/vacuum-sme
