@@ -1,8 +1,8 @@
-# Default owners are pcds-platforms-development
-* @robert-test-tk
+# default group
+* @pcdshub/software-admin
 
-*.txt @tangkong
+# language-specific group(s)
+*.py* @pcdshub/python-reviewers @pcdshub/software-admin
 
-*.py @ZLLentz
-
+# github folder holds administrative files
 .github/** @pcdshub/software-admin
