@@ -4,11 +4,10 @@
 *.txt @tangkong
 
 *.py @ZLLentz
-
-# *.pyi @pcdshub/shell-reviewers  # work
+*.pyi @pcdshub/shell-reviewers  # works
 
 # **/*.{py,pyi,pyc,pyw,pyx,pyd} @pcdshub/python-reviewers  # does not work
 
-**/*.py[icwxd] @pcdshub/python-reviewers
+# **/*.py[icwxd] @pcdshub/python-reviewers  # [ ] syntax does not work
 
 .github/** @pcdshub/software-admin
