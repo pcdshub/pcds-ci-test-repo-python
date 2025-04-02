@@ -1,12 +1,17 @@
-# Default owners are pcds-platforms-development
-* @robert-test-tk
+# default group
+* @pcdshub/software-admin
 
-*.txt @tangkong
+# language-specific group(s)
+*.py @pcdshub/python-reviewers @pcdshub/software-admin
+*.pyi @pcdshub/python-reviewers @pcdshub/software-admin
+*.pyc @pcdshub/python-reviewers @pcdshub/software-admin
+*.pyw @pcdshub/python-reviewers @pcdshub/software-admin
+*.pyx @pcdshub/python-reviewers @pcdshub/software-admin
+*.pyd @pcdshub/python-reviewers @pcdshub/software-admin
+*.sh @pcdshub/shell-reviewers @pcdshub/software-admin
+*.zsh @pcdshub/shell-reviewers @pcdshub/software-admin
+*.csh @pcdshub/shell-reviewers @pcdshub/software-admin
+*.bash @pcdshub/shell-reviewers @pcdshub/software-admin
 
-*.py @ZLLentz
-
-*.pyi @pcdshub/shell-reviewers  # works
-# **/*.{py,pyi,pyc,pyw,pyx,pyd} @pcdshub/python-reviewers  # does not work
-# **/*.py[icwxd] @pcdshub/python-reviewers
-
+# github folder holds administrative files
 .github/** @pcdshub/software-admin
